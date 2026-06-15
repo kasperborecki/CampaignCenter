@@ -1,0 +1,110 @@
+{
+  "app": {
+    "hello": "Cześć, {name}!",
+    "welcomeDashboard": "Witaj w swoim panelu kampanii!"
+  },
+  "auth": {
+    "heroTitle": "Zarządzaj kampaniami z twórcami bez chaosu",
+    "heroSubtitle": "Wszystko w jednym miejscu: kampanie, twórcy, zadania, treści i briefy. Mniej klikania, więcej efektów.",
+    "welcomeBack": "Witaj ponownie!",
+    "registerTitle": "Zarejestruj się",
+    "loginPrompt": "Zaloguj się do swojego konta",
+    "registerPrompt": "Utwórz nowe konto",
+    "login": "Zaloguj się",
+    "register": "Zarejestruj się",
+    "email": "Email",
+    "password": "Hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "rememberMe": "Zapamiętaj mnie",
+    "forgotPassword": "Nie pamiętasz hasła?",
+    "orContinueWith": "lub kontynuuj z",
+    "emailPlaceholder": "Wpisz swój adres e-mail",
+    "passwordPlaceholder": "Wpisz swoje hasło",
+    "confirmPasswordPlaceholder": "Potwierdź hasło",
+    "invalidEmail": "Nieprawidłowy adres email.",
+    "invalidPassword": "Hasło musi mieć co najmniej 8 znaków, zawierać dużą i małą literę, cyfrę oraz znak specjalny.",
+    "passwordMismatch": "Hasła nie są takie same."
+  },
+  "authProviders": {
+    "google": "Google",
+    "facebook": "Facebook",
+    "apple": "Apple"
+  },
+  "sidebar": {
+    "newCampaign": "Nowa kampania",
+    "dashboard": "Dashboard",
+    "campaigns": "Kampanie",
+    "creators": "Twórcy",
+    "tasks": "Zadania",
+    "calendar": "Kalendarz",
+    "payments": "Płatności",
+    "documents": "Dokumenty",
+    "notes": "Notatki",
+    "settings": "Ustawienia",
+    "userName": "User Name",
+    "administrator": "Administrator"
+  },
+  "searchPlaceholder": "Szukaj...",
+  "common": {
+    "seeAll": "Zobacz wszystkie",
+    "all": "Wszystkie"
+  },
+  "campaigns": {
+    "myCampaigns": "Moje kampanie",
+    "inProgress": "W trakcie",
+    "planned": "Planowane",
+    "closed": "Zakończone",
+    "creators": "{current} / {total} twórców"
+  },
+  "campaignPage": {
+    "title": "Kampanie",
+    "subtitle": "Zarządzaj wszystkimi kampaniami w jednym miejscu",
+    "allCampaigns": "Wszystkie kampanie",
+    "stopped": "Wstrzymane",
+    "archived": "Archiwalne",
+    "sortNewest": "Sortuj: Najnowsze",
+    "sortOldest": "Sortuj: Najstarsze",
+    "sortAZ": "Sortuj: Alfabetycznie A-Z",
+    "sortZA": "Sortuj: Alfabetycznie Z-A",
+    "chooseOption": "Wybierz opcję",
+    "budget": "Budżet",
+    "hidden": "Ukryte",
+    "guardian": "Opiekun",
+    "created": "Utworzono",
+    "updated": "Ostatnia aktualizacja",
+    "starts": "Start kampanii",
+    "creators": "Twórców",
+    "tasks": "Zadań",
+    "progress": "Postęp",
+    "reach": "Zasięg (łącznie)",
+    "showing": "Wyświetlanie {from}-{to} z {total} kampanii"
+  },
+  "tasks": {
+    "title": "Moje zadania",
+    "todo": "Do zrobienia",
+    "inProgress": "W trakcie",
+    "closed": "Zakończone"
+  },
+  "actions": {
+    "title": "Szybkie akcje",
+    "addCreator": "Dodaj twórcę",
+    "createCampaign": "Utwórz kampanię",
+    "createTask": "Utwórz zadanie",
+    "uploadFiles": "Prześlij pliki",
+    "newNote": "Nowa notatka"
+  },
+  "deadlines": {
+    "title": "Zbliżające się terminy",
+    "subtitle": "Ważne terminy w zbliżających się dniach"
+  },
+  "stats": {
+    "myCampaigns": "Moje kampanie",
+    "creatorsInCampaigns": "Twórcy w moich kampaniach",
+    "activeTasks": "Aktywne zadania",
+    "tasksToday": "Zadania na dziś",
+    "inProgress": "3 w trakcie realizacji",
+    "newThisMonth": "5 nowych w tym miesiącu",
+    "needAttention": "4 wymagają uwagi",
+    "planned": "8 z 14 zaplanowanych"
+  }
+}

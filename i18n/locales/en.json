@@ -1,0 +1,110 @@
+{
+  "app": {
+    "hello": "Hello, {name}!",
+    "welcomeDashboard": "Welcome to your campaign dashboard!"
+  },
+  "auth": {
+    "heroTitle": "Manage creator campaigns without chaos",
+    "heroSubtitle": "Everything in one place: campaigns, creators, tasks, content and briefs. Less clicking, more impact.",
+    "welcomeBack": "Welcome back!",
+    "registerTitle": "Create your account",
+    "loginPrompt": "Log in to your account",
+    "registerPrompt": "Create a new account",
+    "login": "Log in",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "orContinueWith": "or continue with",
+    "emailPlaceholder": "Enter your email address",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "invalidEmail": "Invalid email address.",
+    "invalidPassword": "Password must be at least 8 characters, with upper and lower case letters, a number, and a symbol.",
+    "passwordMismatch": "Passwords do not match."
+  },
+  "authProviders": {
+    "google": "Google",
+    "facebook": "Facebook",
+    "apple": "Apple"
+  },
+  "sidebar": {
+    "newCampaign": "New campaign",
+    "dashboard": "Dashboard",
+    "campaigns": "Campaigns",
+    "creators": "Creators",
+    "tasks": "Tasks",
+    "calendar": "Calendar",
+    "payments": "Payments",
+    "documents": "Documents",
+    "notes": "Notes",
+    "settings": "Settings",
+    "userName": "User Name",
+    "administrator": "Administrator"
+  },
+  "searchPlaceholder": "Search...",
+  "common": {
+    "seeAll": "See all",
+    "all": "All"
+  },
+  "campaigns": {
+    "myCampaigns": "My campaigns",
+    "inProgress": "In progress",
+    "planned": "Planned",
+    "closed": "Closed",
+    "creators": "{current} / {total} creators"
+  },
+  "campaignPage": {
+    "title": "Campaigns",
+    "subtitle": "Manage every campaign in one place",
+    "allCampaigns": "All campaigns",
+    "stopped": "Stopped",
+    "archived": "Archived",
+    "sortNewest": "Sort: Newest",
+    "sortOldest": "Sort: Oldest",
+    "sortAZ": "Sort: Alphabetically A-Z",
+    "sortZA": "Sort: Alphabetically Z-A",
+    "chooseOption": "Choose option",
+    "budget": "Budget",
+    "hidden": "Hidden",
+    "guardian": "Owner",
+    "created": "Created",
+    "updated": "Last updated",
+    "starts": "Campaign start",
+    "creators": "Creators",
+    "tasks": "Tasks",
+    "progress": "Progress",
+    "reach": "Reach (total)",
+    "showing": "Showing {from}-{to} of {total} campaigns"
+  },
+  "tasks": {
+    "title": "My tasks",
+    "todo": "To do",
+    "inProgress": "In progress",
+    "closed": "Closed"
+  },
+  "actions": {
+    "title": "Quick actions",
+    "addCreator": "Add creator",
+    "createCampaign": "Create campaign",
+    "createTask": "Create task",
+    "uploadFiles": "Upload files",
+    "newNote": "New note"
+  },
+  "deadlines": {
+    "title": "Upcoming deadlines",
+    "subtitle": "Important dates in the next few days"
+  },
+  "stats": {
+    "myCampaigns": "My campaigns",
+    "creatorsInCampaigns": "Creators in my campaigns",
+    "activeTasks": "Active tasks",
+    "tasksToday": "Tasks for today",
+    "inProgress": "3 in progress",
+    "newThisMonth": "5 new this month",
+    "needAttention": "4 need attention",
+    "planned": "8 of 14 scheduled"
+  }
+}

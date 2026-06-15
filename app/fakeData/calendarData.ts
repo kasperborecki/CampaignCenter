@@ -1,0 +1,32 @@
+export const deadlines = [
+  {
+    id: 1,
+    day: '20',
+    month: 'MAJ',
+    title: 'Spotkanie z zespołem',
+    subtitle: 'Przegląd kampanii',
+    datetime: '2026-05-20T10:00:00',
+    endDatetime: '2026-05-20T11:00:00',
+    color: '#8B5CF6',
+  },
+  {
+    id: 2,
+    day: '21',
+    month: 'MAJ',
+    title: 'Prezentacja dla klienta',
+    subtitle: 'Summer Sale 2024',
+    datetime: '2026-05-21T14:00:00',
+    endDatetime: '2026-05-21T15:00:00',
+    color: '#F59E0B',
+  },
+  {
+    id: 3,
+    day: '23',
+    month: 'MAJ',
+    title: 'Deadline na content',
+    subtitle: 'New Collection Launch',
+    datetime: '2026-05-23T23:59:00',
+    endDatetime: null,
+    color: '#EF4444',
+  },
+]

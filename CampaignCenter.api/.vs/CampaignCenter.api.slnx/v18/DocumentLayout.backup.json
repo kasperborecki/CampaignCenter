@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|c:\\users\\kaspe\\campaigncenter\\campaigncenter.api\\campaigncenter.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|solutionrelative:campaigncenter.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Migrations\\20260625194341_InitUserData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CampaignCenter.api\\Migrations\\20260625194341_InitUserData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|c:\\users\\kaspe\\campaigncenter\\campaigncenter.api\\campaigncenter.api\\database\\entities\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|solutionrelative:campaigncenter.api\\database\\entities\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|c:\\users\\kaspe\\campaigncenter\\campaigncenter.api\\campaigncenter.api\\database\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|solutionrelative:campaigncenter.api\\database\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|c:\\users\\kaspe\\campaigncenter\\campaigncenter.api\\campaigncenter.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|solutionrelative:campaigncenter.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|c:\\users\\kaspe\\campaigncenter\\campaigncenter.api\\campaigncenter.api\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|solutionrelative:campaigncenter.api\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|c:\\users\\kaspe\\campaigncenter\\campaigncenter.api\\campaigncenter.api\\database\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A729766-66A1-56EB-9814-AD59D7A14865}|CampaignCenter.api\\CampaignCenter.api.csproj|solutionrelative:campaigncenter.api\\database\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260625194341_InitUserData.cs",
+              "DocumentMoniker": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Migrations\\20260625194341_InitUserData.cs",
+              "RelativeDocumentMoniker": "CampaignCenter.api\\Migrations\\20260625194341_InitUserData.cs",
+              "ToolTip": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Migrations\\20260625194341_InitUserData.cs",
+              "RelativeToolTip": "CampaignCenter.api\\Migrations\\20260625194341_InitUserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:43:41.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Program.cs",
+              "RelativeDocumentMoniker": "CampaignCenter.api\\Program.cs",
+              "ToolTip": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Program.cs",
+              "RelativeToolTip": "CampaignCenter.api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:31:59.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CampaignCenter.api\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "CampaignCenter.api\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:27:28.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\appsettings.json",
+              "RelativeDocumentMoniker": "CampaignCenter.api\\appsettings.json",
+              "ToolTip": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\appsettings.json",
+              "RelativeToolTip": "CampaignCenter.api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-25T19:22:56.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Database\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "CampaignCenter.api\\Database\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Database\\Entities\\Role.cs",
+              "RelativeToolTip": "CampaignCenter.api\\Database\\Entities\\Role.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:18:53.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Database\\Entities\\UserRoles.cs",
+              "RelativeDocumentMoniker": "CampaignCenter.api\\Database\\Entities\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Database\\Entities\\UserRoles.cs",
+              "RelativeToolTip": "CampaignCenter.api\\Database\\Entities\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:17:48.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Database\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CampaignCenter.api\\Database\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\Database\\Entities\\User.cs",
+              "RelativeToolTip": "CampaignCenter.api\\Database\\Entities\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:01:34.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

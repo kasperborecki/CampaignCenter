@@ -1,0 +1,6 @@
+@CampaignCenter.api_HostAddress = http://localhost:5202
+
+GET {{CampaignCenter.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

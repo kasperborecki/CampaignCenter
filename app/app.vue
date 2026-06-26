@@ -3,7 +3,7 @@
     <NuxtRouteAnnouncer />
 
     <ClientOnly>
-      <div v-if="isAuthenticated" class="flex min-h-screen">
+      <div v-if="isAuthenticated" class="flex max-h-screen">
         <SideBarComponent class="shrink-0" />
         <main class="min-h-screen flex-1 overflow-auto">
           <NuxtPage />

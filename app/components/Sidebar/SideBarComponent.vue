@@ -2,33 +2,21 @@
   <aside class="relative flex h-screen w-64 flex-col items-center border-r border-gray-900 bg-[#090c13] text-white">
     <img :src="logoIcon" alt="logoIcon" class="mt-4 h-14 w-14" />
 
-    <Button
-      type="button"
-      icon="pi pi-plus"
-      :label="t('sidebar.newCampaign')"
-      class="mt-4 flex h-12 items-center gap-2 rounded-md bg-[#5b2eff] px-4 py-2 font-semibold text-white hover:bg-[#784DFF]"
-    />
+    <Button type="button" icon="pi pi-plus" :label="t('sidebar.newCampaign')"
+      class="mt-4 flex h-12 items-center gap-2 rounded-md bg-[#5b2eff] px-4 py-2 font-semibold text-white hover:bg-[#784DFF]" />
 
-    <nav class="mt-8 flex w-full flex-col items-center gap-2">
-      <Button
-        v-for="item in navItems"
-        :key="item.value"
-        type="button"
-        :icon="item.icon"
-        :label="t(item.label)"
-        text
+    <nav class="flex-1 overflow-y-auto mt-8 flex w-full flex-col items-center gap-2">
+      <Button v-for="item in navItems" :key="item.value" type="button" :icon="item.icon" :label="t(item.label)" text
         :class="[
           'flex h-10 w-[90%] items-center justify-start gap-4 rounded-md px-3 py-2 font-semibold transition',
           selectedTab === item.value
             ? 'bg-[#5B2EFF]/20 text-white'
             : 'bg-transparent text-gray-300 hover:bg-[#5B2EFF]/10',
-        ]"
-        @click="navigate(item)"
-      />
+        ]" @click="navigate(item)" />
     </nav>
 
-    <div class="absolute bottom-0 flex h-20 w-full border-t border-gray-900 p-2">
-      <Avatar :image="userAvatar" shape="circle" class="h-16 w-16 object-cover" />
+    <div class="shrink-0 flex h-20 w-full border-t border-gray-900 p-2">
+      <img :src="userAvatar" alt="avatar" class="h-16 w-16 rounded-full object-cover" />
       <div class="ml-5 flex flex-col justify-center">
         <p class="font-semibold">{{ t('sidebar.userName') }}</p>
         <p class="text-sm text-gray-400">{{ t('sidebar.administrator') }}</p>

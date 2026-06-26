@@ -72,7 +72,7 @@
       />
     </div>
 
-    <div class="mt-2 min-h-0 flex-1 px-8">
+    <div class="mt-2 flex-1 px-8">
       <CampaignDataTable class="h-full w-full" />
     </div>
   </div>

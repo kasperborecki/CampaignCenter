@@ -8,26 +8,14 @@
 
       <div class="-mt-6 flex items-center gap-4">
         <div
-          class="relative flex h-9 w-50 items-center rounded-md border border-zinc-700 bg-zinc-800 text-sm text-white shadow transition-all focus-within:w-100"
-        >
+          class="relative flex h-9 w-50 items-center rounded-md border border-zinc-700 bg-zinc-800 text-sm text-white shadow transition-all focus-within:w-100">
           <i class="pi pi-search pointer-events-none absolute left-3 text-zinc-400" />
-          <InputText
-            v-model="search"
-            spellcheck="false"
-            name="text"
-            :placeholder="t('searchPlaceholder')"
-            class="h-full w-full bg-transparent py-1.5 pl-10 pr-3 text-white outline-none transition-all placeholder:text-zinc-400"
-          />
+          <InputText v-model="search" spellcheck="false" name="text" :placeholder="t('searchPlaceholder')"
+            class="h-full w-full bg-transparent py-1.5 pl-10 pr-3 text-white outline-none transition-all placeholder:text-zinc-400" />
         </div>
 
-        <Button
-          type="button"
-          icon="pi pi-bell"
-          text
-          rounded
-          class="h-10 w-10 text-white hover:bg-white/10"
-          aria-label="Notifications"
-        />
+        <Button type="button" icon="pi pi-bell" text rounded class="h-10 w-10 text-white hover:bg-white/10"
+          aria-label="Notifications" />
 
         <LanguageSwitch />
       </div>
@@ -35,16 +23,15 @@
 
     <DashboardStatsCardGroup class="max-h-[13%] max-w-full px-6" />
 
-    <div class="mx-8 mt-7 grid grid-cols-[3fr_2fr] items-start gap-6">
-      <div class="flex min-w-0 flex-col gap-6">
-        <DashboardCampaignCard class="h-[40vh] min-w-0" />
-        <DashboardTermsCard class="h-[30vh] min-w-0" />
-      </div>
+    <div
+      class="mx-8 mt-7 grid h-[calc(100vh-240px)] grid-cols-[3fr_2fr] grid-rows-7 items-stretch gap-6 overflow-hidden">
+      <DashboardCampaignCard class="col-start-1 row-start-1 row-span-4 min-h-0 min-w-0" />
 
-      <div class="flex min-w-0 flex-col gap-6">
-        <DashboardTaskCard class="h-[50vh] min-w-0" />
-        <DashboardActionsCard class="h-[20vh] min-w-0" />
-      </div>
+      <DashboardTaskCard class="col-start-2 row-start-1 row-span-5 min-h-0 min-w-0" />
+
+      <DashboardTermsCard class="col-start-1 row-start-5 row-span-3 min-h-0 min-w-0" />
+
+      <DashboardActionsCard class="col-start-2 row-start-6 row-span-2 min-h-0 min-w-0" />
     </div>
   </div>
 </template>

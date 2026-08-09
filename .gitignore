@@ -1,0 +1,109 @@
+# =========================
+# Node / npm
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# =========================
+# Nuxt / Nitro
+# =========================
+
+.nuxt/
+.output/
+.nitro/
+.data/
+.cache/
+dist/
+
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# .NET build outputs
+# =========================
+
+bin/
+obj/
+
+
+# =========================
+# Visual Studio
+# =========================
+
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+# =========================
+# JetBrains / IDE
+# =========================
+
+.idea/
+.fleet/
+
+
+# =========================
+# VS Code local settings
+# =========================
+
+.vscode/
+
+# Jeśli chcesz trzymać wspólne ustawienia VS Code w repo,
+# usuń powyższe ".vscode/" i użyj np.:
+#
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/extensions.json
+# !.vscode/launch.json
+# !.vscode/tasks.json
+
+
+# =========================
+# Logs
+# =========================
+
+logs/
+*.log
+
+
+# =========================
+# Test / coverage output
+# =========================
+
+coverage/
+.nyc_output/
+TestResults/
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.cache
+
+
+# =========================
+# Operating system
+# =========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini

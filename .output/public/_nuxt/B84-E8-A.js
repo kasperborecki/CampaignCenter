@@ -1,0 +1,1 @@
+import t from"./C1LoPRKo.js";import"./CCV3VslT.js";import"./CLs7nh7g.js";import"./BeoT4qtP.js";import"./C2yWC06V.js";import"./RymKID9k.js";import"./DUlGAqIV.js";import"./CWAqYYgB.js";import"./BMjEDJ9n.js";import"./CHf5SNfW.js";var u={name:"Dropdown",extends:t,mounted:function(){console.warn("Deprecated since v4. Use Select component instead.")}};export{u as default};

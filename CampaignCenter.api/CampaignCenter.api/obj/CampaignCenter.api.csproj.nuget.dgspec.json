@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj": {}
+    "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj": {
+    "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj",
+        "projectUniqueName": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj",
         "projectName": "CampaignCenter.api",
-        "projectPath": "c:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj",
+        "projectPath": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj",
         "packagesPath": "C:\\Users\\kaspe\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\obj\\",
+        "outputPath": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

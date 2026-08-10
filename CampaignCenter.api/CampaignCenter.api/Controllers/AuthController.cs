@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using CampaignCenter.api.Database.Entities;
 using CampaignCenter.api.Model;
+using CampaignCenter.api.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -10,62 +11,31 @@ using Microsoft.IdentityModel.Tokens;
 namespace CampaignCenter.api.Controllers
 {
     [Route("api/[controller]")]
-    public class AuthController(IConfiguration configuration) : Controller
+    public class AuthController(IAuthService authService) : Controller
     {
         public static User user = new();
         [HttpPost("register")]
 
-        public ActionResult<User> Register([FromBody] UserDto request)
+        public async Task<ActionResult<User>> Register([FromBody] UserCreateDto request)
         {
-            var hashedPassword = new PasswordHasher<User>()
-                .HashPassword(user, request.PasswordHash);
+           var user = await authService.RegisterAsync(request);
 
-            user.UserName = request.UserName;
-            user.PasswordHash = hashedPassword;
+           if(user is null)
+                return BadRequest("User with this email already exists.");
 
             return Ok(user);
         }
 
         [HttpPost]
 
-        public ActionResult<string> Login([FromBody] UserDto request)
+        public ActionResult<string> Login([FromBody] UserLoginDto request)
         {
-            if (user.UserName != request.UserName)
-            {
-                return BadRequest("User not found.");
-            }
+            var token = authService.LoginAsync(request);
 
-            if (new PasswordHasher<User>().VerifyHashedPassword(user, user.PasswordHash, request.PasswordHash) == PasswordVerificationResult.Failed)
-            {
-                return BadRequest("User or password is wrong.");
-            }
-
-            string token = CreateToken(user);
+            if(token is null)
+                return BadRequest("Wrongg credentials.");
 
             return Ok(token);
-        }
-
-        private string CreateToken(User user)
-        {
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.UserName)
-            };
-
-            var key = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(configuration.GetValue<string>("AppSettings:Token")!));
-
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
-
-            var tokenDescriptor = new JwtSecurityToken(
-                issuer: configuration.GetValue<string>("AppSettings:Issuer"),
-                audience: configuration.GetValue<string>("AppSettings:Audience"),
-                claims: claims,
-                expires: DateTime.Now.AddDays(7),
-                signingCredentials: creds
-            );
-
-            return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
         }
     }
 }

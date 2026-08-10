@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampaignCenter.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfd987891cd3ae47460d81e4f30cc575c67286f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf3e7ee7b005059ddba9c0bbdbd4aa66904b28a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampaignCenter.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampaignCenter.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

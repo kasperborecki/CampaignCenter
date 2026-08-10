@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "CampaignCenter.api.Model.UserDto",
+        "Type": "CampaignCenter.api.Model.UserLoginDto",
         "IsRequired": true
       }
     ],
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "CampaignCenter.api.Model.UserDto",
+        "Type": "CampaignCenter.api.Model.UserCreateDto",
         "IsRequired": true
       }
     ],

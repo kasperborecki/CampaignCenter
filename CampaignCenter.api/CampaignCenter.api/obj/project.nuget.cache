@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AkRmiZ7wzvU=",
+  "dgSpecHash": "4vOawlZYJJI=",
   "success": true,
-  "projectFilePath": "c:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj",
+  "projectFilePath": "C:\\Users\\kaspe\\CampaignCenter\\CampaignCenter.api\\CampaignCenter.api\\CampaignCenter.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaspe\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\kaspe\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
